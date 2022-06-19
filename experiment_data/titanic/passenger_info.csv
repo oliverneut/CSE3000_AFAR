@@ -1,4 +1,4 @@
-Name,Sex,Age,SibSp,Parch,PassengerId
+Name_passenger_info,Sex_passenger_info,Age_passenger_info,SibSp_passenger_info,Parch_passenger_info,PassengerId_passenger_info
 "Braund, Mr. Owen Harris",male,22.0,1,0,1
 "Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38.0,1,0,2
 "Heikkinen, Miss. Laina",female,26.0,0,0,3

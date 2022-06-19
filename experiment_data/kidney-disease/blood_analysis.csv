@@ -1,4 +1,4 @@
-id,sg,al,su,ba,bgr,bu,sc,sod,pot,kd_id
+id_blood_analysis,sg_blood_analysis,al_blood_analysis,su_blood_analysis,ba_blood_analysis,bgr_blood_analysis,bu_blood_analysis,sc_blood_analysis,sod_blood_analysis,pot_blood_analysis,kd_id_blood_analysis
 92898,1.02,1.0,0.0,notpresent,121.0,36.0,1.2,,,0
 14648,1.02,4.0,0.0,notpresent,,18.0,0.8,,,1
 88810,1.01,2.0,3.0,notpresent,423.0,53.0,1.8,,,2

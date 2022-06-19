@@ -36,7 +36,7 @@ id,age,bp,appet,classification
 34,70.0,70.0,poor,ckd
 35,65.0,90.0,poor,ckd
 36,76.0,70.0,good,ckd
-37,72.0,80.0,poor,ckd	
+37,72.0,80.0,poor,ckd
 38,69.0,80.0,good,ckd
 39,82.0,80.0,good,ckd
 40,46.0,90.0,good,ckd
@@ -229,7 +229,7 @@ id,age,bp,appet,classification
 227,57.0,80.0,good,ckd
 228,60.0,70.0,good,ckd
 229,59.0,50.0,good,ckd
-230,65.0,60.0,poor,ckd	
+230,65.0,60.0,poor,ckd
 231,60.0,90.0,good,ckd
 232,50.0,90.0,good,ckd
 233,51.0,100.0,poor,ckd

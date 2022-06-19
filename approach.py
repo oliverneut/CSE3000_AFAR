@@ -23,7 +23,7 @@ def join_paths(path, connections, target):
     base = connections['from_table'][0]
     base_table = pd.read_csv(path + base)
 
-    sample = train_test_split(base_table.drop(target, axis=1), base_table[target], test_size=0.1, stratify=base_table[target], random_state=1)
+    sample = train_test_split(base_table.drop(target, axis=1), base_table[target], test_size=0.5, stratify=base_table[target], random_state=1)
     idxs = sample[0].index
     res = {base:base_table.iloc[idxs]}
 
@@ -236,8 +236,8 @@ def join_oneByOne():
         paths = join_paths(path, connections, target)
 
         base = connections['from_table'][0]
-        b_table = paths.pop(base)
-        b_columns = b_table.columns
+        b_table = pd.read_csv(path + base)
+        b_columns = paths.pop(base).columns
         b_columns = b_columns.drop(drop_ids(b_columns))
         b_columns = b_columns.drop(target)
         
@@ -269,7 +269,7 @@ def join_oneByOne():
                 'runtime': time.total_seconds()
             }
             results.append(res) 
-    pd.DataFrame(results).to_csv('results/join_approach.csv', index=False)
+    pd.DataFrame(results).to_csv('results/join_approach_1.csv', index=False)
 
 def verify_order():
 
@@ -310,4 +310,4 @@ def verify_order():
         pd.DataFrame(res).to_csv('results/accuracy_order_'+ base, index=False)
 
 if __name__ == '__main__':
-    best_joinpath_approach()
+    join_oneByOne()

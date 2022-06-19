@@ -1,4 +1,4 @@
-TicketId,Ticket,Fare,Pclass,Embarked
+TicketId_ticket_info,Ticket_ticket_info,Fare_ticket_info,Pclass_ticket_info,Embarked_ticket_info
 6830,A/5 21171,7.25,3,S
 5438,PC 17599,71.2833,1,C
 2811,STON/O2. 3101282,7.925,3,S

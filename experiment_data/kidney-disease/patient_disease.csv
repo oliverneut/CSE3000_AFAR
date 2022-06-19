@@ -1,4 +1,4 @@
-id,htn,dm,cad,pe,ane,kd_id
+id_patient_disease,htn_patient_disease,dm_patient_disease,cad_patient_disease,pe_patient_disease,ane_patient_disease,kd_id_patient_disease
 28308,yes,yes,no,no,no,0
 9356,no,no,no,no,no,1
 26793,no,yes,no,no,yes,2

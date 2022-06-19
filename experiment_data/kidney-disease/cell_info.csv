@@ -1,4 +1,4 @@
-hemo,rbc,pc,pcc,pcv,wc,rc,ba_id,id
+hemo_cell_info,rbc_cell_info,pc_cell_info,pcc_cell_info,pcv_cell_info,wc_cell_info,rc_cell_info,ba_id_cell_info,id_cell_info
 15.4,,normal,notpresent,44,7800,5.2,92898,9074
 11.3,,normal,notpresent,38,6000,,14648,11598
 9.6,normal,normal,notpresent,31,7500,,88810,9240
