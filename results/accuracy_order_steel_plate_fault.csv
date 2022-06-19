@@ -1,0 +1,8 @@
+candidate,accuracy
+type_of_fault.csv,1.0
+luminosity.csv,1.0
+max_measurements.csv,0.9929906542056075
+min_measurements.csv,0.985981308411215
+indices.csv,0.9717223650385605
+edges.csv,0.9025522041763341
+log_measurements.csv,0.8909512761020881

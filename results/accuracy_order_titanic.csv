@@ -1,0 +1,4 @@
+candidate,accuracy
+passenger_info.csv,0.770949720670391
+ticket_info.csv,0.7589743589743589
+cabin.csv,0.6548223350253807

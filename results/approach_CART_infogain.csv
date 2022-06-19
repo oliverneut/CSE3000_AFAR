@@ -1,0 +1,9 @@
+dataset,join_path,accuracy,depth,runtime,accuracy_order
+football,strong_team.csv,0.7679324894514767,3,0.674187,"['strong_team.csv' 'differences_stats.csv' 'weak_team.csv'
+ 'strong_change_creation.csv' 'weak_change_creation.csv'
+ 'strong_strategy.csv' 'strong_building.csv' 'weak_building.csv'
+ 'weak_strategy.csv']"
+kidney_disease,cell_info.csv,1.0,10,0.542346,['cell_info.csv' 'blood_analysis.csv' 'patient_disease.csv']
+steel_plate_fault,luminosity.csv,1.0,2,0.901944,"['luminosity.csv' 'min_measurements.csv' 'max_measurements.csv'
+ 'indices.csv' 'log_measurements.csv' 'edges.csv' 'type_of_fault.csv']"
+titanic,passenger_info.csv,0.7486033519553073,2,0.318179,['passenger_info.csv' 'ticket_info.csv' 'cabin.csv']

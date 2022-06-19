@@ -1,0 +1,309 @@
+dataset,join_path,accuracy,depth,runtime
+"      date  strong_team  weak_team  tournament  win  weak_team_weak_team  weak_score_weak_team  weak_overall_weak_team  weak_avg_age_weak_team
+0        0            0          0           0    0                    0                     0                       0                       0
+1        1            1          1           1    0                    1                     1                       1                       1
+2        2            2          2           0    1                    2                     0                       2                       2
+3        3            3          3           0    0                    3                     0                       3                       3
+4        4            4          4           2    1                    4                     2                       4                       4
+...    ...          ...        ...         ...  ...                  ...                   ...                     ...                     ...
+1055   367           11         20           7    1                   20                     1                       3                      24
+1056   368           18         38           4    0                   38                     1                      12                      63
+1057   369           15          6           2    0                    6                     0                      20                     145
+1058    69            9         18           2    0                   18                     1                      13                      93
+1059   144           11          5           2    1                    5                     1                       3                      13
+
+[1060 rows x 9 columns]",weak_team.csv,0.6291079812206573,1,4.13103
+"      date  strong_team  weak_team  tournament  win  ...  weak_avg_age_weak_team  strong_team_strong_team  strong_score_strong_team  strong_overall_strong_team  strong_avg_age_strong_team
+0        0            0          0           0    0  ...                       0                        0                         0                           0                           0
+1        1            1          1           1    0  ...                       1                        1                         1                           1                           1
+2        2            2          2           0    1  ...                       2                        2                         2                           2                           2
+3        3            3          3           0    0  ...                       3                        3                         1                           3                           3
+4        4            4          4           2    1  ...                       4                        4                         2                           0                           4
+...    ...          ...        ...         ...  ...  ...                     ...                      ...                       ...                         ...                         ...
+1055   367           11         20           7    1  ...                      24                       11                         4                           0                          62
+1056   368           18         38           4    0  ...                      63                       18                         3                           0                          20
+1057   369           15          6           2    0  ...                     145                       15                         3                           5                          98
+1058    69            9         18           2    0  ...                      93                        9                         3                           8                           7
+1059   144           11          5           2    1  ...                      13                       11                         2                           3                          11
+
+[1060 rows x 13 columns]",strong_team.csv,0.9859154929577465,4,10.012715
+"      date  strong_team  weak_team  ...  strong_cc_passing_strong_change_creation  strong_cc_shooting_strong_change_creation  strong_cc_positioning_strong_change_creation
+0        0            0          0  ...                                         0                                          0                                             0
+1        1            1          1  ...                                         1                                          1                                             0
+2        2            2          2  ...                                         2                                          2                                             0
+3        3            3          3  ...                                         3                                          3                                             0
+4        4            4          4  ...                                         4                                          4                                             1
+...    ...          ...        ...  ...                                       ...                                        ...                                           ...
+1232   367           11         20  ...                                        20                                         20                                             0
+1233   368           18         38  ...                                        17                                         18                                             1
+1234   369           15          6  ...                                        45                                          4                                             0
+1235    69            9         18  ...                                         9                                          8                                             1
+1236   144           11          5  ...                                        11                                          5                                             0
+
+[1237 rows x 17 columns]",strong_change_creation.csv,0.9919678714859438,2,19.366921
+"      date  strong_team  weak_team  tournament  ...  strong_cc_positioning_strong_change_creation  weak_bu_speed_weak_building  weak_bu_passing_weak_building  weak_bu_positioning_weak_building
+0        0            0          0           0  ...                                             0                            0                              0                                  0
+1        1            1          1           1  ...                                             0                            0                              1                                  0
+2        2            2          2           0  ...                                             0                            0                              2                                  0
+3        3            3          3           0  ...                                             0                            1                              1                                  0
+4        4            4          4           2  ...                                             1                            2                              2                                  0
+...    ...          ...        ...         ...  ...                                           ...                          ...                            ...                                ...
+1251   368           18         38           4  ...                                             1                           29                             17                                  0
+1252   369           15          6           2  ...                                             0                           31                             10                                  0
+1253    69            9         18           2  ...                                             1                           14                             15                                  0
+1254   144           11          5           2  ...                                             0                            3                             19                                  0
+1255    96            9         41           0  ...                                             1                            2                             29                                  0
+
+[1256 rows x 20 columns]",weak_building.csv,0.9722222222222222,6,35.209557
+"      date  strong_team  weak_team  ...  weak_cc_passing_weak_change_creation  weak_cc_shooting_weak_change_creation  weak_cc_positioning_weak_change_creation
+0        0            0          0  ...                                     0                                      0                                         0
+1        1            1          1  ...                                     1                                      1                                         0
+2        2            2          2  ...                                     2                                      2                                         0
+3        2            2          2  ...                                     0                                      3                                         1
+4        3            3          3  ...                                     3                                      4                                         0
+...    ...          ...        ...  ...                                   ...                                    ...                                       ...
+1305    69            9         18  ...                                     5                                     16                                         0
+1306   144           11          5  ...                                    26                                     13                                         0
+1307    96            9         41  ...                                    36                                     28                                         1
+1308    46           24         47  ...                                    12                                      3                                         0
+1309    46           24         47  ...                                    22                                     25                                         0
+
+[1310 rows x 24 columns]",weak_change_creation.csv,0.9923954372623575,2,55.839693
+"      date  strong_team  weak_team  tournament  ...  weak_cc_positioning_weak_change_creation  strong_bu_speed_strong_building  strong_bu_passing_strong_building  strong_bu_positioning_strong_building
+0        0            0          0           0  ...                                         0                                0                                  0                                      0
+1        1            1          1           1  ...                                         0                                1                                  1                                      0
+2        2            2          2           0  ...                                         0                                2                                  2                                      0
+3        2            2          2           0  ...                                         1                                2                                  2                                      0
+4        3            3          3           0  ...                                         0                                3                                  3                                      0
+...    ...          ...        ...         ...  ...                                       ...                              ...                                ...                                    ...
+1717    69            9         18           2  ...                                         0                                8                                  3                                      1
+1718   144           11          5           2  ...                                         0                                5                                  9                                      0
+1719    96            9         41           0  ...                                         1                                8                                  3                                      0
+1720    46           24         47           0  ...                                         0                               26                                 27                                      0
+1721    46           24         47           0  ...                                         0                               26                                 27                                      0
+
+[1722 rows x 27 columns]",strong_building.csv,0.9826589595375722,5,78.673534
+"      date  strong_team  weak_team  tournament  ...  dif_cc_shooting_differences_stats  dif_aggression_differences_stats  dif_preassure_differences_stats  dif_avg_age_differences_stats
+0        0            0          0           0  ...                                  0                                 0                                0                              0
+1        1            1          1           1  ...                                  1                                 1                                1                              1
+2        2            2          2           0  ...                                  2                                 2                                0                              2
+3        2            2          2           0  ...                                  2                                 2                                0                              2
+4        3            3          3           0  ...                                  2                                 3                                2                              3
+...    ...          ...        ...         ...  ...                                ...                               ...                              ...                            ...
+1717    69            9         18           2  ...                                 33                                 1                                5                            235
+1718   144           11          5           2  ...                                 27                                12                               47                            111
+1719    96            9         41           0  ...                                 17                                42                                9                            141
+1720    46           24         47           0  ...                                 43                                 2                               13                            257
+1721    46           24         47           0  ...                                 43                                 2                               13                            257
+
+[1722 rows x 38 columns]",differences_stats.csv,0.9826589595375722,3,125.566206
+"      date  strong_team  weak_team  tournament  ...  strong_attack_strong_strategy  strong_deffense_strong_strategy  strong_aggression_strong_strategy  strong_preassure_strong_strategy
+0        0            0          0           0  ...                              0                                0                                  0                                 0
+1        1            1          1           1  ...                              1                                0                                  1                                 1
+2        2            2          2           0  ...                              2                                1                                  2                                 2
+3        2            2          2           0  ...                              2                                1                                  2                                 2
+4        3            3          3           0  ...                              3                                2                                  3                                 3
+...    ...          ...        ...         ...  ...                            ...                              ...                                ...                               ...
+1717    69            9         18           2  ...                             18                                3                                  8                                 7
+1718   144           11          5           2  ...                             11                                9                                 10                                 9
+1719    96            9         41           0  ...                             16                                8                                  8                                 7
+1720    46           24         47           0  ...                              1                                8                                  6                                22
+1721    46           24         47           0  ...                              1                                8                                  6                                22
+
+[1722 rows x 42 columns]",strong_strategy.csv,0.9826589595375722,3,176.417452
+"      date  strong_team  weak_team  tournament  win  ...  strong_preassure_strong_strategy  weak_attack_weak_strategy  weak_deffense_weak_strategy  weak_aggression_weak_strategy  weak_preassure_weak_strategy
+0        0            0          0           0    0  ...                                 0                          0                            0                              0                             0
+1        1            1          1           1    0  ...                                 1                          0                            1                              1                             1
+2        2            2          2           0    1  ...                                 2                          1                            0                              2                             2
+3        2            2          2           0    1  ...                                 2                          1                            0                              2                             2
+4        3            3          3           0    0  ...                                 3                          2                            2                              3                             3
+...    ...          ...        ...         ...  ...  ...                               ...                        ...                          ...                            ...                           ...
+1717    69            9         18           2    0  ...                                 7                          3                            2                              9                             2
+1718   144           11          5           2    1  ...                                 9                         11                            0                              3                            10
+1719    96            9         41           0    1  ...                                 7                         21                            8                              8                             3
+1720    46           24         47           0    1  ...                                22                          2                            6                              3                             2
+1721    46           24         47           0    1  ...                                22                         19                           12                             25                            10
+
+[1722 rows x 46 columns]",weak_strategy.csv,0.9884393063583815,4,237.029408
+"     age  bp  appet  classification  hemo_cell_info  rbc_cell_info  pc_cell_info  pcc_cell_info  pcv_cell_info  wc_cell_info  rc_cell_info
+0      0   0      0               0               0             -1            -1              0              0             0             0
+1      1   1      0               1              -1             -1             0              0             -1             1             1
+2      2   2      0               1               1              0             1              0              1            -1            -1
+3      3   2      0               0               2              1             0              0              2             2             2
+4      4   0      1               1              -1             -1            -1              0             -1            -1            -1
+..   ...  ..    ...             ...             ...            ...           ...            ...            ...           ...           ...
+351   70   0      0               1             107             -1             0              0             40            48             4
+352   52   5      1               1              86             -1             0              0             30            38            34
+353   75   4      0               1              39             -1             0              0             20            35            24
+354   16   5      0               0              -1              1             0              0             22            -1            -1
+355   65   2      0               1              71             -1            -1              0             43            -1            -1
+
+[356 rows x 11 columns]",cell_info.csv,1.0,2,3.696315
+"     age  bp  appet  classification  hemo_cell_info  rbc_cell_info  ...  rc_cell_info  htn_patient_disease  dm_patient_disease  cad_patient_disease  pe_patient_disease  ane_patient_disease
+0      0   0      0               0               0             -1  ...             0                    0                   0                    0                   0                    0
+1      1   1      0               1              -1             -1  ...             1                    1                   0                    0                   0                    0
+2      2   2      0               1               1              0  ...            -1                    1                   0                    0                   1                    0
+3      3   2      0               0               2              1  ...             2                    0                   0                    0                   0                    0
+4      4   0      1               1              -1             -1  ...            -1                    1                   0                    0                   0                    0
+..   ...  ..    ...             ...             ...            ...  ...           ...                  ...                 ...                  ...                 ...                  ...
+351   70   0      0               1             107             -1  ...             4                    1                   1                    0                   0                    0
+352   52   5      1               1              86             -1  ...            34                    1                   1                    0                   0                    0
+353   75   4      0               1              39             -1  ...            24                    1                   1                    0                   0                    0
+354   16   5      0               0              -1              1  ...            -1                    0                   0                    0                   0                    0
+355   65   2      0               1              71             -1  ...            -1                    1                   1                    1                   1                    1
+
+[356 rows x 16 columns]",patient_disease.csv,0.9583333333333334,1,8.849048
+"     age  bp  appet  classification  hemo_cell_info  rbc_cell_info  ...  ba_blood_analysis  bgr_blood_analysis  bu_blood_analysis  sc_blood_analysis  sod_blood_analysis  pot_blood_analysis
+0      0   0      0               0               0             -1  ...                  0                   0                  0                  0                   0                   0
+1      1   1      0               1              -1             -1  ...                  0                   1                  1                  1                   1                   1
+2      2   2      0               1               1              0  ...                  0                   2                  2                  2                  -1                  -1
+3      3   2      0               0               2              1  ...                  0                   3                  3                  3                   2                   2
+4      4   0      1               1              -1             -1  ...                  0                   4                  4                  4                  -1                  -1
+..   ...  ..    ...             ...             ...            ...  ...                ...                 ...                ...                ...                 ...                 ...
+351   70   0      0               1             107             -1  ...                  0                 123                 31                 30                  22                   4
+352   52   5      1               1              86             -1  ...                  0                 139                 21                 63                   0                  30
+353   75   4      0               1              39             -1  ...                  0                   2                 95                 71                   0                  12
+354   16   5      0               0              -1              1  ...                  0                  60                 89                 13                  17                  15
+355   65   2      0               1              71             -1  ...                  0                 127                107                 45                  13                  17
+
+[356 rows x 25 columns]",blood_analysis.csv,1.0,1,17.356232
+"       V5  V11  V12  V13  V14  V22  V25  V27  Class  V28_type_of_fault  V29_type_of_fault  V30_type_of_fault  V31_type_of_fault  V32_type_of_fault  V33_type_of_fault
+0       0    0    0    0    0    0    0    0      0                  0                  0                  0                  0                  0                  0
+1       1    1    1    1    1    1    1    1      0                  0                  0                  1                  0                  0                  1
+2       2    1    0    0    2    2    2    2      0                  0                  1                  0                  0                  0                  1
+3       3    2    1    1    1    3    3    3      1                  0                  0                  0                  0                  0                  1
+4       4    3    0    0    3    4    4    4      0                  0                  0                  0                  0                  0                  0
+...   ...  ...  ...  ...  ...  ...  ...  ...    ...                ...                ...                ...                ...                ...                ...
+1739  323    1    1    1    1  323  278   38      1                  0                  0                  0                  0                  0                  1
+1740  844    1    1    1    1  839   25    1      0                  0                  0                  1                  0                  0                  1
+1741   31   22    1    1    1   31  666  148      1                  0                  0                  0                  0                  0                  1
+1742  845   17    0    0   10  840  850    1      1                  0                  0                  0                  0                  0                  1
+1743  109    0    0    0    6  109   19   61      1                  0                  0                  0                  0                  0                  1
+
+[1744 rows x 15 columns]",type_of_fault.csv,1.0,1,11.445518
+"       V5  V11  V12  V13  V14  V22  V25  V27  Class  ...  V29_type_of_fault  V30_type_of_fault  V31_type_of_fault  V32_type_of_fault  V33_type_of_fault  V15_indices  V16_indices  V17_indices  V21_indices
+0       0    0    0    0    0    0    0    0      0  ...                  0                  0                  0                  0                  0            0            0            0            0
+1       1    1    1    1    1    1    1    1      0  ...                  0                  1                  0                  0                  1            1            1            1            1
+2       2    1    0    0    2    2    2    2      0  ...                  1                  0                  0                  0                  1            2            2            2            1
+3       3    2    1    1    1    3    3    3      1  ...                  0                  0                  0                  0                  1            3            3            3            0
+4       4    3    0    0    3    4    4    4      0  ...                  0                  0                  0                  0                  0            4            4            4            0
+...   ...  ...  ...  ...  ...  ...  ...  ...    ...  ...                ...                ...                ...                ...                ...          ...          ...          ...          ...
+1743  323    1    1    1    1  323  278   38      1  ...                  0                  0                  0                  0                  1          115         1224           51            1
+1744  844    1    1    1    1  839   25    1      0  ...                  0                  1                  0                  0                  1            1         1225           24            1
+1745   31   22    1    1    1   31  666  148      1  ...                  0                  0                  0                  0                  1          295         1226          195            1
+1746  845   17    0    0   10  840  850    1      1  ...                  0                  0                  0                  0                  1         1272         1227          711            1
+1747  109    0    0    0    6  109   19   61      1  ...                  0                  0                  0                  0                  1         1273          119            4            1
+
+[1748 rows x 19 columns]",indices.csv,1.0,1,27.007078
+"       V5  V11  V12  V13  V14  V22  V25  V27  Class  ...  V33_type_of_fault  V15_indices  V16_indices  V17_indices  V21_indices  V8_luminosity  V9_luminosity  V10_luminosity  V26_luminosity
+0       0    0    0    0    0    0    0    0      0  ...                  0            0            0            0            0              0              0               0               0
+1       1    1    1    1    1    1    1    1      0  ...                  1            1            1            1            1              1              1               1               1
+2       2    1    0    0    2    2    2    2      0  ...                  1            2            2            2            1              2              2               2               2
+3       3    2    1    1    1    3    3    3      1  ...                  1            3            3            3            0              3              3               3               3
+4       4    3    0    0    3    4    4    4      0  ...                  0            4            4            4            0              4              4               4               4
+...   ...  ...  ...  ...  ...  ...  ...  ...    ...  ...                ...          ...          ...          ...          ...            ...            ...             ...             ...
+1751  323    1    1    1    1  323  278   38      1  ...                  1          115         1224           51            1             73             67              10            1392
+1752  844    1    1    1    1  839   25    1      0  ...                  1            1         1225           24            1           1711             24              10             560
+1753   31   22    1    1    1   31  666  148      1  ...                  1          295         1226          195            1           1712             69               1            1393
+1754  845   17    0    0   10  840  850    1      1  ...                  1         1272         1227          711            1           1713             55               2            1394
+1755  109    0    0    0    6  109   19   61      1  ...                  1         1273          119            4            1            961              6               6             572
+
+[1756 rows x 23 columns]",luminosity.csv,1.0,1,48.289576
+"       V5  V11  V12  V13  V14  V22  V25  V27  Class  ...  V17_indices  V21_indices  V8_luminosity  V9_luminosity  V10_luminosity  V26_luminosity  V1_min_measurements  V3_min_measurements  V9_min_measurements
+0       0    0    0    0    0    0    0    0      0  ...            0            0              0              0               0               0                    0                    0                    0
+1       1    1    1    1    1    1    1    1      0  ...            1            1              1              1               1               1                    1                    1                    1
+2       2    1    0    0    2    2    2    2      0  ...            2            1              2              2               2               2                    2                    2                    2
+3       3    2    1    1    1    3    3    3      1  ...            3            0              3              3               3               3                    3                    3                    3
+4       4    3    0    0    3    4    4    4      0  ...            4            0              4              4               4               4                    4                    4                    4
+...   ...  ...  ...  ...  ...  ...  ...  ...    ...  ...          ...          ...            ...            ...             ...             ...                  ...                  ...                  ...
+1941  844    1    1    1    1  839   25    1      0  ...           24            1           1711             24              10             560                    1                 1751                   28
+1942   31   22    1    1    1   31  666  148      1  ...          195            1           1712             69               1            1393                  339                 1752                   71
+1943  845   17    0    0   10  840  850    1      1  ...          711            1           1713             55               2            1394                  916                 1753                   57
+1944  109    0    0    0    6  109   19   61      1  ...            4            1            961              6               6             572                  881                 1630                   97
+1945  109    0    0    0    6  109   19   61      1  ...            4            1            961              6               6             572                  237                 1631                    8
+
+[1946 rows x 26 columns]",min_measurements.csv,1.0,1,78.063447
+"       V5  V11  V12  V13  V14  V22  V25  V27  ...  V10_luminosity  V26_luminosity  V1_min_measurements  V3_min_measurements  V9_min_measurements  V2_max_measurements  V4_max_measurements  V10_max_measurements
+0       0    0    0    0    0    0    0    0  ...               0               0                    0                    0                    0                    0                    0                     0
+1       1    1    1    1    1    1    1    1  ...               1               1                    1                    1                    1                    1                    1                     1
+2       2    1    0    0    2    2    2    2  ...               2               2                    2                    2                    2                    2                    2                     2
+3       3    2    1    1    1    3    3    3  ...               3               3                    3                    3                    3                    3                    3                     3
+4       4    3    0    0    3    4    4    4  ...               4               4                    4                    4                    4                    4                    4                     4
+...   ...  ...  ...  ...  ...  ...  ...  ...  ...             ...             ...                  ...                  ...                  ...                  ...                  ...                   ...
+2351  845   17    0    0   10  840  850    1  ...               2            1394                  916                 1753                   57                  930                 1753                     2
+2352  109    0    0    0    6  109   19   61  ...               6             572                  881                 1630                   97                  908                 1630                    20
+2353  109    0    0    0    6  109   19   61  ...               6             572                  881                 1630                   97                  909                 1631                     8
+2354  109    0    0    0    6  109   19   61  ...               6             572                  237                 1631                    8                  908                 1630                    20
+2355  109    0    0    0    6  109   19   61  ...               6             572                  237                 1631                    8                  909                 1631                     8
+
+[2356 rows x 29 columns]",max_measurements.csv,1.0,1,119.659116
+"       V5  V11  V12  V13  V14  V22  V25  ...  V9_min_measurements  V2_max_measurements  V4_max_measurements  V10_max_measurements  V22_log_measurements  V23_log_measurements  V24_log_measurements
+0       0    0    0    0    0    0    0  ...                    0                    0                    0                     0                     0                     0                     0
+1       1    1    1    1    1    1    1  ...                    1                    1                    1                     1                     1                     1                     1
+2       2    1    0    0    2    2    2  ...                    2                    2                    2                     2                     2                     2                     2
+3       2    1    0    0    2    2    2  ...                    2                    2                    2                     2                     3                     3                     3
+4       3    2    1    1    1    3    3  ...                    3                    3                    3                     3                     4                     4                     4
+...   ...  ...  ...  ...  ...  ...  ...  ...                  ...                  ...                  ...                   ...                   ...                   ...                   ...
+2630  845   17    0    0   10  840  850  ...                   57                  930                 1753                     2                   848                   121                    25
+2631  109    0    0    0    6  109   19  ...                   97                  908                 1630                    20                   114                    10                    20
+2632  109    0    0    0    6  109   19  ...                   97                  909                 1631                     8                   114                    10                    20
+2633  109    0    0    0    6  109   19  ...                    8                  908                 1630                    20                   114                    10                    20
+2634  109    0    0    0    6  109   19  ...                    8                  909                 1631                     8                   114                    10                    20
+
+[2635 rows x 32 columns]",log_measurements.csv,1.0,1,172.962574
+"       V5  V11  V12  V13  V14  V22  V25  V27  Class  ...  V10_max_measurements  V22_log_measurements  V23_log_measurements  V24_log_measurements  V6_edges  V7_edges  V18_edges  V19_edges  V20_edges
+0       0    0    0    0    0    0    0    0      0  ...                     0                     0                     0                     0         0         0          0          0          0
+1       1    1    1    1    1    1    1    1      0  ...                     1                     1                     1                     1         1         1          1          1          1
+2       2    1    0    0    2    2    2    2      0  ...                     2                     2                     2                     2         2         2          2          2          2
+3       2    1    0    0    2    2    2    2      0  ...                     2                     2                     2                     2         3         3          3          3          3
+4       2    1    0    0    2    2    2    2      0  ...                     2                     3                     3                     3         2         2          2          2          2
+...   ...  ...  ...  ...  ...  ...  ...  ...    ...  ...                   ...                   ...                   ...                   ...       ...       ...        ...        ...        ...
+3200  845   17    0    0   10  840  850    1      1  ...                     2                   848                   121                    25       203       124        427        755        594
+3201  109    0    0    0    6  109   19   61      1  ...                    20                   114                    10                    20         0        19          6         19          5
+3202  109    0    0    0    6  109   19   61      1  ...                     8                   114                    10                    20         0        19          6         19          5
+3203  109    0    0    0    6  109   19   61      1  ...                    20                   114                    10                    20         0        19          6         19          5
+3204  109    0    0    0    6  109   19   61      1  ...                     8                   114                    10                    20         0        19          6         19          5
+
+[3205 rows x 37 columns]",edges.csv,1.0,1,248.681281
+"     Name  Survived  Name_passenger_info  Sex_passenger_info  Age_passenger_info  SibSp_passenger_info  Parch_passenger_info
+0       0         0                    0                   0                   0                     0                     0
+1       1         0                    1                   0                   1                     1                     0
+2       2         1                    2                   1                   2                     0                     0
+3       3         0                    3                   0                   3                     0                     0
+4       4         1                    4                   0                   4                     0                     0
+..    ...       ...                  ...                 ...                 ...                   ...                   ...
+792   792         1                  792                   1                   2                     0                     0
+793   793         0                  793                   0                  24                     0                     0
+794   794         1                  794                   0                  -1                     0                     0
+795   795         0                  795                   0                  -1                     0                     0
+796   796         1                  796                   0                  86                     1                     1
+
+[797 rows x 7 columns]",passenger_info.csv,0.84472049689441,1,2.993887
+"     Name  Survived  Name_passenger_info  Sex_passenger_info  Age_passenger_info  ...  Parch_passenger_info  Ticket_ticket_info  Fare_ticket_info  Pclass_ticket_info  Embarked_ticket_info
+0       0         0                    0                   0                   0  ...                     0                   0                 0                   0                     0
+1       1         0                    1                   0                   1  ...                     0                   1                 1                   0                     0
+2       2         1                    2                   1                   2  ...                     0                   2                 2                   0                     1
+3       2         1                    2                   1                   2  ...                     0                   3                 3                   1                     1
+4       3         0                    3                   0                   3  ...                     0                   4                 4                   0                     0
+..    ...       ...                  ...                 ...                 ...  ...                   ...                 ...               ...                 ...                   ...
+864   792         1                  792                   1                   2  ...                     0                 625                19                   2                     0
+865   793         0                  793                   0                  24  ...                     0                 626                 9                   0                     0
+866   794         1                  794                   0                  -1  ...                     0                 627                13                   0                     1
+867   795         0                  795                   0                  -1  ...                     0                 628                29                   0                     0
+868   796         1                  796                   0                  86  ...                     1                 118                78                   1                     0
+
+[869 rows x 11 columns]",ticket_info.csv,0.7885714285714286,8,9.061866
+"     Name  Survived  Name_passenger_info  Sex_passenger_info  Age_passenger_info  ...  Ticket_ticket_info  Fare_ticket_info  Pclass_ticket_info  Embarked_ticket_info  Cabin_cabin
+0       0         0                    0                   0                   0  ...                   0                 0                   0                     0           -1
+1       1         0                    1                   0                   1  ...                   1                 1                   0                     0           -1
+2       2         1                    2                   1                   2  ...                   2                 2                   0                     1            0
+3       2         1                    2                   1                   2  ...                   3                 3                   1                     1            0
+4       3         0                    3                   0                   3  ...                   4                 4                   0                     0           -1
+..    ...       ...                  ...                 ...                 ...  ...                 ...               ...                 ...                   ...          ...
+872   792         1                  792                   1                   2  ...                 625                19                   2                     0           -1
+873   793         0                  793                   0                  24  ...                 626                 9                   0                     0           -1
+874   794         1                  794                   0                  -1  ...                 627                13                   0                     1           -1
+875   795         0                  795                   0                  -1  ...                 628                29                   0                     0           -1
+876   796         1                  796                   0                  86  ...                 118                78                   1                     0           33
+
+[877 rows x 12 columns]",cabin.csv,0.7627118644067796,2,16.188302

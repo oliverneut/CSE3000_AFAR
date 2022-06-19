@@ -1,0 +1,4 @@
+candidate,accuracy
+cell_info.csv,0.95
+blood_analysis.csv,0.9375
+patient_disease.csv,0.9125

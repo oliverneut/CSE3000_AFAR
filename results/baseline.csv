@@ -1,0 +1,5 @@
+table,accuracy,depth,runtime
+football,0.5485232067510548,3,1.473501
+kidney_disease,0.6875,1,0.687863
+steel_plate_fault,0.8817480719794345,8,5.680386
+titanic,0.5921787709497207,1,0.366354

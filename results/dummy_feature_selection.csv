@@ -1,0 +1,21 @@
+dataset,filter method,accuracy,depth,runtime
+football,info_gain,1.0,2,21.399039
+kidney_disease,info_gain,0.9875,3,5.558136
+steel_plate_fault,info_gain,0.9985835694050992,1,15.517246
+titanic,info_gain,0.8477157360406091,1,3.278988
+football,pearson,1.0,2,16.783842
+kidney_disease,pearson,0.95,1,3.776692
+steel_plate_fault,pearson,0.9985835694050992,1,15.51742
+titanic,pearson,0.8477157360406091,1,3.385709
+football,spearman,0.828125,11,38.89383
+kidney_disease,spearman,0.95,1,4.306944
+steel_plate_fault,spearman,0.9971671388101983,3,14.077209
+titanic,spearman,0.868020304568528,2,2.617844
+football,gini,1.0,3,17.175305
+kidney_disease,gini,1.0,2,3.887561
+steel_plate_fault,gini,0.9985835694050992,1,14.261935
+titanic,gini,0.8629441624365483,1,2.572464
+football,symetrical_uncertainty,1.0,2,17.156208
+kidney_disease,symetrical_uncertainty,0.95,3,3.767161
+steel_plate_fault,symetrical_uncertainty,0.9957507082152974,2,14.524962
+titanic,symetrical_uncertainty,0.8578680203045685,1,2.460752

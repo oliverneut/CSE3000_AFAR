@@ -1,0 +1,10 @@
+candidate,accuracy
+strong_team.csv,0.7510548523206751
+weak_team.csv,0.6919831223628692
+strong_strategy.csv,0.6231884057971014
+strong_change_creation.csv,0.5942028985507246
+strong_building.csv,0.5869565217391305
+weak_change_creation.csv,0.5286885245901639
+weak_strategy.csv,0.5186721991701245
+weak_building.csv,0.5186721991701245
+differences_stats.csv,0.5147679324894515

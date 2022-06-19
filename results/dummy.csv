@@ -1,0 +1,5 @@
+dataset,accuracy,depth,runtime
+football,1.0,2,58.975611
+kidney_disease,1.0,2,10.374826
+steel_plate_fault,0.9985835694050992,1,53.482577
+titanic,0.8426395939086294,2,9.66847

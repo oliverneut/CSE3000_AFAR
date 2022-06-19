@@ -1,0 +1,5 @@
+,dataset,best path,Pearson correlation,Information gain,Gini index ,Symmetrical uncertainty
+0,football,strong_team.csv,weak_team.csv,strong_team.csv,weak_strategy.csv,weak_building.csv
+1,kidney_disease,cell_info.csv,cell_info.csv,cell_info.csv,patient_disease.csv,blood_analysis.csv
+2,steel_plate_fault,type_of_fault.csv,type_of_fault.csv,luminosity.csv,type_of_fault.csv,type_of_fault.csv
+3,titanic,passenger_info.csv,passenger_info.csv,passenger_info.csv,passenger_info.csv,passenger_info.csv
